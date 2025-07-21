@@ -1,0 +1,26 @@
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9d976"></stop>
+      <stop offset="100%" stop-color="#f39f36"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"></rect>
+
+  <!-- Border -->
+  <rect x="20" y="20" width="760" height="1160" fill="none" stroke="#a33b00" stroke-width="6"></rect>
+  <rect x="30" y="30" width="740" height="1140" fill="none" stroke="#a33b00" stroke-dasharray="12 6" stroke-width="2"></rect>
+
+  <!-- Trishul Icon -->
+  <text x="400" y="90" font-size="48" text-anchor="middle" fill="#a33b00">🔱</text>
+
+  <!-- Corner Motifs (Simple Floral Design) -->
+  <circle cx="60" cy="60" r="20" fill="#a33b00"></circle>
+  <circle cx="740" cy="60" r="20" fill="#a33b00"></circle>
+  <circle cx="60" cy="1140" r="20" fill="#a33b00"></circle>
+  <circle cx="740" cy="1140" r="20" fill="#a33b00"></circle>
+
+  <!-- Lotus Icon -->
+  <text x="400" y="1160" font-size="28" text-anchor="middle" fill="#a33b00">🪷</text>
+</svg>

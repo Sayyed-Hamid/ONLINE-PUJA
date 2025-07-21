@@ -1,0 +1,75 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+  
+  .dashed{
+     border: 5px dashed rgb(100, 26, 26);
+     margin: 10px;
+  }
+ 
+    body {
+  background: linear-gradient(to bottom, #f8db85 0%, #f4a841 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 10px solid rgb(152, 14, 14);
+  margin: 10px;
+  
+}
+   
+ .puja-hero{
+    width: 88%;
+    margin: 90px auto;
+ }
+
+ h1 {
+    font-size:1.7em;
+    font-weight: 1000;
+    margin-top: -65px;
+    padding: 10px 0;
+    color: #e65100;
+ }
+
+ .main-h1p{
+    text-align: center;
+    padding: 0 0 35px 0;
+ }
+
+
+ .main-h2{
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 1.1em;
+    color: #a31515;
+ }
+
+
+ h3{
+    text-align: left;
+    padding-bottom: 13px;
+    color: 	#5c1e00;
+ }
+  
+  p{
+    padding-bottom: 19px;
+    color: #3c2f1c;
+  }
+  
+
+  .contact{
+    color: #820000;
+    font-weight: 800;
+    font-size: 1.1em;
+  }  
+
+
+  .imp{
+    /* color: #867f04; */
+    font-weight: 800;
+    font-size: 1.1em;
+    color: #ff5900;
+  text-shadow: 1px 1px 2px #5c1e00;
+
+  }
