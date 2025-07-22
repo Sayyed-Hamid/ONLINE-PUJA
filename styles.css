@@ -6,18 +6,30 @@
   
   .dashed{
      border: 5px dashed rgb(100, 26, 26);
+     border-radius: 15px;
      margin: 10px;
   }
  
-    body {
+    .top {
   background: linear-gradient(to bottom, #f8db85 0%, #f4a841 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   border: 10px solid rgb(152, 14, 14);
+  border-radius: 15px;
   margin: 10px;
   
 }
+
+ body{
+ 
+  background: linear-gradient(to bottom, #f8db85 0%, #f4a841 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 10px;
+
+ }
    
  .puja-hero{
     width: 88%;
@@ -29,7 +41,7 @@
     font-weight: 1000;
     margin-top: -65px;
     padding: 10px 0;
-    color: #e65100;
+    color: #ff0000;
  }
 
  .main-h1p{
@@ -46,6 +58,7 @@
  }
 
 
+
  h3{
     text-align: left;
     padding-bottom: 13px;
@@ -60,16 +73,123 @@
 
   .contact{
     color: #820000;
-    font-weight: 800;
-    font-size: 1.1em;
+    font-weight: 1000;
+    font-size: 1.2em;
+    font-family: sans-serif;
   }  
 
 
   .imp{
-    /* color: #867f04; */
+   
     font-weight: 800;
     font-size: 1.1em;
     color: #ff5900;
   text-shadow: 1px 1px 2px #5c1e00;
 
+  }
+
+  
+  .imp1{
+   
+    font-weight: 800;
+    font-size: 1.05em;
+    color: #ff0000;
+  text-shadow: 1px 2px 2px #5c1e00;
+  margin-bottom: -70px;
+
+  }
+
+
+
+  .grid{
+   display: grid;
+   grid-template-columns:repeat(3, 1fr);
+   width: 88%;
+   gap: 60px;
+   margin: 0 auto;
+   padding: 70px 0 0 0  ;
+   
+  }
+
+  .grid section{
+   margin: 0 auto;
+   background-color: rgb(170, 120, 12);
+   width:400px;
+   height:465px;
+   border-radius: 13px;
+   overflow: hidden;
+  }
+
+  section img{
+   width:400px;
+   height:320px;
+   display:block;
+   object-fit: cover;
+   object-position: top ;
+   border-bottom: 3px solid brown;
+
+  }
+
+  section h2{
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 1.45em;
+    color: #a31515;
+    padding: 15px 8px 27px 8px;
+ }
+   section button {
+      margin: 0 auto;
+      display: block;
+      padding: 10px 35px 10px 35px ;
+      background-color: rgb(220, 66, 10);
+      border: 3px solid rgb(209, 66, 13);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 1.1em;
+      font-weight: 600;
+      color: rgb(236, 229, 229);
+   }
+
+
+
+      section button:hover {
+      margin: 0 auto;
+      display: block;
+      padding: 10px 35px 10px 35px ;
+      background-color: rgb(220, 10, 10);
+      border: 3px solid rgb(223, 10, 10);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 1.18em;
+      font-weight: 600;
+      color: rgb(236, 229, 229);
+   }
+
+
+         section button:active {
+      margin: 0 auto;
+      display: block;
+      padding: 10px 35px 10px 35px ;
+      background-color: rgb(220, 10, 10);
+      border: 3px solid rgb(223, 10, 10);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 1.1em;
+      font-weight: 600;
+      color: rgb(236, 229, 229);
+   }
+   
+
+
+
+   a{
+      text-decoration: none;
+   }
+
+
+  @media (max-width: 700px) { 
+   .grid{
+      grid-template-columns: 1fr;
+   }
+   
   }
