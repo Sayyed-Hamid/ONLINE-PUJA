@@ -28,6 +28,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin: auto;
   
  }
    
@@ -106,18 +107,20 @@
    grid-template-columns:repeat(3, 1fr);
    width: 88%;
    gap: 60px;
-   margin: 0 auto;
+   margin: 60px auto;
    padding: 70px 0 0 0  ;
+   
    
   }
 
   .grid section{
    margin: 0 auto;
    background-color: rgb(170, 120, 12);
-   width:400px;
-   height:465px;
+   width:360px;
+   height:490px;
    border-radius: 13px;
    overflow: hidden;
+   
   }
 
   section img{
