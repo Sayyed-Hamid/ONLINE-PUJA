@@ -116,7 +116,7 @@
   .grid section{
    margin: 0 auto;
    background-color: rgb(170, 120, 12);
-   width:360px;
+   width:330px;
    height:490px;
    border-radius: 13px;
    overflow: hidden;
@@ -124,7 +124,7 @@
   }
 
   section img{
-   width:400px;
+   width:330px;
    height:320px;
    display:block;
    object-fit: cover;
