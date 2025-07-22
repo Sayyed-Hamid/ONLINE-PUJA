@@ -105,7 +105,7 @@
   .grid{
    display: grid;
    grid-template-columns:repeat(3, 1fr);
-   width: 88%;
+   width: 93%;
    gap: 60px;
    margin: 60px auto;
    padding: 70px 0 0 0  ;
@@ -116,7 +116,7 @@
   .grid section{
    margin: 0 auto;
    background-color: rgb(170, 120, 12);
-   width:330px;
+   width:335px;
    height:490px;
    border-radius: 13px;
    overflow: hidden;
@@ -124,7 +124,7 @@
   }
 
   section img{
-   width:330px;
+   width:335px;
    height:320px;
    display:block;
    object-fit: cover;
