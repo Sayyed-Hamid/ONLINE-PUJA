@@ -17,7 +17,8 @@
   background-size: cover;
   border: 10px solid rgb(152, 14, 14);
   border-radius: 15px;
-  margin: 10px;
+  margin: 10px auto;
+  width:93%
   
 }
 
@@ -27,8 +28,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  margin: 10px;
-
+  
  }
    
  .puja-hero{
